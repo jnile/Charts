@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+        <link rel="stylesheet" href="charts.css">
+        <script src="charts.js"></script>
+    </head>
+    <body onload="">
+        <div class="navigation">
+            <ul>
+                <li><button onClick="areaChart();">Area Chart</button></li>
+                <li><button onClick="barChart();">Bar Chart</button></li>
+                <li><button onClick="bubbleChart();">Bubble Chart</button></li>
+                <li><button onClick="dpChart();">Doughnut and Pie Chart</button></li>
+                <li><button onClick="lineChart();">Line Chart</button></li>
+                <li><button onClick="mixedChart();">Mixed Chart Types</button></li>
+                <li><button onClick="polarChart();">Polar Area Chart</button></li>
+                <li><button onClick="radarChart();">Radar Chart</button></li>
+                <li><button onClick="scatterChart();">Scatter Chart</button></li>
+            </ul>
+        </div>
+        <div id="canvass">
+            <canvas id="achart" width="400" height="400"></canvas>
+        </div>
+    </body>
+</html>

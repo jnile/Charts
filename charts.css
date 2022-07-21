@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.navigation {
+    display: inline-block;
+
+    width: 100vw;
+    height: 60px;
+
+    background-color: teal;
+}
+
+.navigation ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    flex-grow: 1;
+}
+
+.navigation button {
+    margin: 3px;
+    
+    height: 54px;
+    width: 95%;
+}
